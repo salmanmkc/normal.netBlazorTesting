@@ -25,7 +25,9 @@ namespace App1
         public MainPage()
         {
             this.InitializeComponent();
-                
+            ProjectsObj project1 = new ProjectsObj("Harry Potter", "Good project", "This project made from film");
+            List<ProjectsObj> projectList = new List<ProjectsObj>();
+            projectList.Add(project1);
         }
     }
 }
